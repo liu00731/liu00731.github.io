@@ -6,6 +6,12 @@ body{
     margin: 10px;
 }
 
+/* The overall background of the part area */
+.part {
+    background-color: #ceece9;
+    padding: 10px 40px;
+}
+
 /* Header section */
 header{
     padding: 0px;
