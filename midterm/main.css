@@ -6,6 +6,7 @@ body{
     margin: 10px;
 }
 
+/* Header section */
 header{
     padding: 0px;
     text-align: center;
@@ -17,11 +18,13 @@ header{
     background-repeat: no-repeat;
 }
 
+/* Main title of the website */
 h1{
     padding-top: 150px;
     font-size: 3.5rem;
 }
 
+/* Navigation bar section */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -38,11 +41,13 @@ nav a {
     font-weight: bold;
 }
 
+/* Article section */
 h2{
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
+/* The image styles within the article */
 article img{
     width: 200px;
     height: 200px;
@@ -50,6 +55,7 @@ article img{
     margin: 0px 20px 20px 0px;
 }
 
+/* Facts section */
 .facts h3{
     font-size: 1.5rem;
     margin-bottom: 0px;
@@ -59,7 +65,7 @@ article img{
     margin-bottom: 20px;
 }
 
-
+/* Contact section */
 .contact h3{
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -70,6 +76,7 @@ article img{
     margin-bottom: 5px;
 }
 
+/* Form layout style */
 .contact form {
     display: flex;
     flex-direction: column;
@@ -78,21 +85,25 @@ article img{
     padding: 20px;
 }
 
+/* Label group */
 .contact .post-group label {
     display: flex;
     row-gap: 10px;
 }
 
+/* Unify the style of the input and the text area */
 .contact .post-group input, .contact .post-group textarea {
     width: 100%;
     padding: 5px;
 }
 
+/* Radio button group style */
 .contact .radio-group {
     display: flex;
     column-gap: 20px;
 }
 
+/* Submit button style */
 .contact button {
     width: 100px;
     padding: 10px;
@@ -101,6 +112,7 @@ article img{
     cursor: pointer;
 }
 
+/* Footer section */
 footer {
     text-align: right;
     margin-top: 30px;
