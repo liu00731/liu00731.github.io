@@ -49,6 +49,7 @@ nav a::after {
     position: absolute;
     color: black; 
     right: -75px;
+    font-weight: normal;
 }
 
 /* Remove the vertical line of the last navigation item */
